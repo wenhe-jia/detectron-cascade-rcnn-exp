@@ -13,7 +13,8 @@ model is trained on coco2017train + val
 | cascade stage 1~3 | test-dev |    |       |       |       |       |       |       |       |       |       |       |       |
 
 
-## cascade rcnn results beta version 1 (clip bbox and add invalid bbox check in DecodeBBoxOp)
+## cascade rcnn results beta version 1
+ (clip bbox and add invalid bbox check in DecodeBBoxOp)
 model is trained on coco2017train + val
 | experiments | dataset | box_ap | box_ap50 | box_ap75 | box_ap_small | box_ap_medium | box_ap_large | mask_ap | mask_ap50 | mask_ap75 | mask_ap_small | mask_ap_medium | mask_ap_large |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
