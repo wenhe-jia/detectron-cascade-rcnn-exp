@@ -62,7 +62,7 @@ experiment results of implement Cascade RCNN under Detectron
 
 | experiments | dataset | box_ap | box_ap50 | box_ap75 | box_ap_small | box_ap_medium | box_ap_large | mask_ap | mask_ap50 | mask_ap75 | mask_ap_small | mask_ap_medium | mask_ap_large |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| mask-R50       | test-dev | 38.0% | 59.7% | 41.3% | 21.2% | 40.2% | 48.1% | 34.2%(33.9%) | 56.4% | 36.0% | 14.8% | 36.0% | 9.7% |
+| mask-R50 | test-dev(val) | 38.0%(37.7%) | 59.7% | 41.3% | 21.2% | 40.2% | 48.1% | 34.2%(33.9%) | 56.4% | 36.0% | 14.8% | 36.0% | 9.7% |
 | cascade stage1 | test-dev | 36.8% | 58.1% | 40.0% | 20.3% | 39.0% | 47.2% | 33.5% | 54.9% | 35.4% | 14.3% | 35.2% | 48.2% |
 | cascade stage2 | test-dev | 38.9% | 58.6% | 42.8% | 21.0% | 40.9% | 50.5% | 34.4% | 55.6% | 36.6% | 14.5% | 36.0% | 50.2% |
 | cascade stage3 | test-dev | 38.9% | 57.4% | 43.1% | 20.8% | 40.8% | 51.0% | 34.3% | 54.7% | 36.7% | 14.4% | 35.8% | 50.0% |
