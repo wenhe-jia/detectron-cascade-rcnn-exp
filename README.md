@@ -72,4 +72,6 @@ experiment results of implement Cascade RCNN under Detectron
 
 ## cascade rcnn results beta version 4 large iter
 ### model is trained on coco2017train, lr start at 0.01, reduce to 0.001 at 160000 iterations and 0.0001 at 240000 iterations
+| experiments | dataset | box_ap | box_ap50 | box_ap75 | box_ap_small | box_ap_medium | box_ap_large | mask_ap | mask_ap50 | mask_ap75 | mask_ap_small | mask_ap_medium | mask_ap_large |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | cascade stage 1~3 | test-dev(val) | (39.75%) | (58.91%) | (43.56%) | (21.78%) | (42.13%) | (54.24%) | (34.73%) | (55.82%) | (36.90%) | (14.85%) | (36.93%) | (53.20%) |
