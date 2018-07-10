@@ -4,7 +4,7 @@ experiment results of implement Cascade RCNN under Detectron
 ## mask iterative bbox rcnn results
 ### model is trained on coco2017train + val
 | experiments | dataset | box_ap | box_ap50 | box_ap75 | box_ap_small | box_ap_medium | box_ap_large | mask_ap | mask_ap50 | mask_ap75 | mask_ap_small | mask_ap_medium | mask_ap_large |
-|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | mask-R50       | test-dev | 38.2% | 60.05 | 41.5% | 21.8% | 40.3% | 48.4% | 34.3% | 56.5% | 36.3% | 14.9% | 36.1% | 49.7% |
 | cascade stage1 | test-dev | 38.3% |       |       |       |       |       | 34.2% |       |       |       |       |       |
 | cascade stage2 | test-dev | 38.9% |       |       |       |       |       | 34.1% |       |       |       |       |       |
@@ -61,12 +61,12 @@ experiment results of implement Cascade RCNN under Detectron
 ### model is trained on coco2017train
 | experiments | dataset | box_ap | box_ap50 | box_ap75 | box_ap_small | box_ap_medium | box_ap_large | mask_ap | mask_ap50 | mask_ap75 | mask_ap_small | mask_ap_medium | mask_ap_large |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| mask-R50 | test-dev(val) | 38.0%(37.7%) | 59.7% | 41.3% | 21.2% | 40.2% | 48.1% | 34.2%(33.9%) | 56.4% | 36.0% | 14.8% | 36.0% | 9.7% |
+| mask-R50 | test-dev(val) | 38.00%(37.7%) | 59.7% | 41.3% | 21.2% | 40.2% | 48.1% | 34.20%(33.9%) | 56.4% | 36.0% | 14.8% | 36.0% | 49.7% |
 | cascade stage1 | test-dev | 36.8% | 58.1% | 40.0% | 20.3% | 39.0% | 47.2% | 33.5% | 54.9% | 35.4% | 14.3% | 35.2% | 48.2% |
 | cascade stage2 | test-dev | 38.9% | 58.6% | 42.8% | 21.0% | 40.9% | 50.5% | 34.4% | 55.6% | 36.6% | 14.5% | 36.0% | 50.2% |
 | cascade stage3 | test-dev | 38.9% | 57.4% | 43.1% | 20.8% | 40.8% | 51.0% | 34.3% | 54.7% | 36.7% | 14.4% | 35.8% | 50.0% |
 | cascade stage 1~2 | test-dev | 38.9% | 59.0% | 42.7% | 21.3% | 41.0% | 50.5% | 34.4% | 55.8% | 36.5% | 14.6% | 36.0% | 50.3% |
-| cascade stage 1~3 | test-dev(val) | 39.5%(39.14%) | 58.9%(58.36%) | 43.4%(42.85%) | 21.5%(21.41%) | 41.4%(41.52%) | 51.3%(53.03%) | 34.6%(34.37%) | 55.8%(55.22%) | 36.8%(36.57%) | 14.8%(15.17%) | 36.2%(36.5%) | 50.4%(52.09%) |
+| cascade stage 1~3 | test-dev(val) | 39.50%(39.14%) | 58.90%(58.36%) | 43.40%(42.85%) | 21.50%(21.41%) | 41.40%(41.52%) | 51.30%(53.03%) | 34.60%(34.37%) | 55.80%(55.22%) | 36.80%(36.57%) | 14.80%(15.17%) | 36.20%(36.5%) | 50.40%(52.09%) |
 
 
 
@@ -87,4 +87,4 @@ experiment results of implement Cascade RCNN under Detectron
 ### model is trained on coco2017train, lr start at 0.01, reduce to 0.001 at 160000 iterations and 0.0001 at 240000 iterations
 | experiments | dataset | box_ap | box_ap50 | box_ap75 | box_ap_small | box_ap_medium | box_ap_large | mask_ap | mask_ap50 | mask_ap75 | mask_ap_small | mask_ap_medium | mask_ap_large |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| cascade stage 1~3 | test-dev(val) | 40.1%(39.75%) | 59.4%(58.91%) | 43.9%(43.56%) | 22.0%(21.78%) | 41.9%(42.13%) | 51.9%(54.24%) | 35.0%(34.73%) | 56.3%(55.82%) | 37.2%(36.90%) | 15.1%(14.85%) | 36.6%(36.93%) | 51.0%(53.20%) |
+| cascade stage 1~3 | test-dev(val) | 40.10%(39.75%) | 59.40%(58.91%) | 43.90%(43.56%) | 22.00%(21.78%) | 41.90%(42.13%) | 51.90%(54.24%) | 35.00%(34.73%) | 56.30%(55.82%) | 37.20%(36.90%) | 15.10%(14.85%) | 36.60%(36.93%) | 51.00%(53.20%) |
