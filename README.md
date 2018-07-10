@@ -1,5 +1,9 @@
 # detectron-cascadee-exp
-experiment results of implement Cascade RCNN under Detectron
+Experiment results of implement Cascade RCNN under Detectron.
+Using ResNet50 as feature extractor, as well as 1x iterations.
+Learning rate start as 0.01 (4GPU, 2 images per GPU).
+
+
 
 ## mask iterative bbox rcnn results
 ### model is trained on coco2017train + val
