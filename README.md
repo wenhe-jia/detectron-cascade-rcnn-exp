@@ -78,7 +78,7 @@ Learning rate start as 0.01 (4GPU, 2 images per GPU).
 ### model is trained on coco2017train
 | experiments | dataset | box_ap | box_ap50 | box_ap75 | box_ap_small | box_ap_med | box_ap_large |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| mask-R50 | test-dev(val) | (36.7%) |  |  |  |  |  |
+| faster-R50 | test-dev(val) | (36.7%) |  |  |  |  |  |
 | cascade stage1 | test-dev(val) |  |  |  |  |  |  |
 | cascade stage2 | test-dev(val) |  |  |  |  |  |  |
 | cascade stage3 | test-dev(val) |  |  |  |  |  |  |
