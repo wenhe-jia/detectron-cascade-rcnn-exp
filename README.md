@@ -8,7 +8,7 @@ Folder **detectron_cascade** are codes to implement Cascade RCNN under Detectron
 
 Folder **configs/cascade/** contains yaml files conducting the Cascade RCNN model training.
 
-## mask iterative bbox rcnn results
+## mask iterative bbox rcnn results (using same IOU threshold in three stage of RCNN)
 ### model is trained on coco2017train + val
 | experiments | dataset | box_ap | box_ap50 | box_ap75 | box_ap_small | box_ap_med | box_ap_large | mask_ap | mask_ap50 | mask_ap75 | mask_ap_small | mask_ap_med | mask_ap_large |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
