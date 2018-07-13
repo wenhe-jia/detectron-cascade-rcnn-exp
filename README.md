@@ -4,8 +4,9 @@ Using ResNet50 as feature extractor, as well as 1x iterations.
 Learning rate start as 0.01 (4GPU, 2 images per GPU).
 
 ## Using statement
-### Folder detectron_cascade are codes to implement Cascade RCNN under Detectron, parallelizing with folder $Detectron/detcectron. 
-### Folder configs/cascade/ contains yaml file conducting the Cascade RCNN model training.
+Folder **detectron_cascade** are codes to implement Cascade RCNN under Detectron, parallelizing with folder **$Detectron/detcectron**. 
+
+Folder **configs/cascade/** contains yaml files conducting the Cascade RCNN model training.
 
 ## mask iterative bbox rcnn results
 ### model is trained on coco2017train + val
