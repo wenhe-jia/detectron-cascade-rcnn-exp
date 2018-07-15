@@ -105,5 +105,5 @@ Folder **configs/cascade/** contains yaml files conducting the Cascade RCNN mode
 | cascade stage2 | voc2007_test |  |  |  |  |  |  |
 | cascade stage3 | voc2007_test |  |  |  |  |  |  |
 | cascade stage 1~2 | voc2007_test |  |  |  |  |  |  |
-| cascade stage 1~3 | voc2007_test |  |  |  |  |  |  |
+| cascade stage 1~3 | voc2007_test | 48.75% | 75.40% | 53.24% | 16.93% | 35.56% | 56.82% |
 
