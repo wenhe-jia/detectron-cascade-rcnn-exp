@@ -8,6 +8,7 @@ Folder **detectron_cascade** are codes to implement Cascade RCNN under Detectron
 
 Folder **configs/cascade/** contains yaml files conducting the Cascade RCNN model training.
 
+# MSCOCO experiments
 ## mask iterative bbox rcnn results (using same IOU threshold in three stage of RCNN)
 ### model is trained on coco2017train + val
 | experiments | dataset | box_ap | box_ap50 | box_ap75 | box_ap_small | box_ap_med | box_ap_large | mask_ap | mask_ap50 | mask_ap75 | mask_ap_small | mask_ap_med | mask_ap_large |
@@ -76,6 +77,12 @@ Folder **configs/cascade/** contains yaml files conducting the Cascade RCNN mode
 | cascade stage 1~3 | test-dev(val) | 39.50%(39.14%) | 58.90%(58.36%) | 43.40%(42.85%) | 21.50%(21.41%) | 41.40%(41.52%) | 51.30%(53.03%) | 34.60%(34.37%) | 55.80%(55.22%) | 36.80%(36.57%) | 14.80%(15.17%) | 36.20%(36.5%) | 50.40%(52.09%) |
 
 
+## mask cascade rcnn results beta version 4 large iter
+### model is trained on coco2017train, lr start at 0.01, reduce to 0.001 at 160000 iterations and 0.0001 at 240000 iterations
+| experiments | dataset | box_ap | box_ap50 | box_ap75 | box_ap_small | box_ap_med | box_ap_large | mask_ap | mask_ap50 | mask_ap75 | mask_ap_small | mask_ap_med | mask_ap_large |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| cascade stage 1~3 | test-dev(val) | 40.10%(39.75%) | 59.40%(58.91%) | 43.90%(43.56%) | 22.00%(21.78%) | 41.90%(42.13%) | 51.90%(54.24%) | 35.00%(34.73%) | 56.30%(55.82%) | 37.20%(36.90%) | 15.10%(14.85%) | 36.60%(36.93%) | 51.00%(53.20%) |
+
 
 ## faster cascade rcnn results
 ### model is trained on coco2017train
@@ -89,9 +96,14 @@ Folder **configs/cascade/** contains yaml files conducting the Cascade RCNN mode
 | cascade stage 1~3 | test-dev(val) | (37.31%) | (55.51%) | (40.65%) | (20.30%) | (39.87%) | (49.21%) |
 
 
+# PASCAL VOC experiments
+## model is trained on voc0712 trainval, tested on voc2007 test, using coco evaluation metrics
+| experiments | dataset | box_ap | box_ap50 | box_ap75 | box_ap_small | box_ap_med | box_ap_large |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| faster-R50 | voc2007_val | 46.75% | 77.06% | 50.32% | 16.54% | 35.10% | 54.36% |
+| cascade stage1 | voc2007_val |  |  |  |  |  |  |
+| cascade stage2 | voc2007_val |  |  |  |  |  |  |
+| cascade stage3 | voc2007_val |  |  |  |  |  |  |
+| cascade stage 1~2 | voc2007_val |  |  |  |  |  |  |
+| cascade stage 1~3 | voc2007_val |  |  |  |  |  |  |
 
-## mask cascade rcnn results beta version 4 large iter
-### model is trained on coco2017train, lr start at 0.01, reduce to 0.001 at 160000 iterations and 0.0001 at 240000 iterations
-| experiments | dataset | box_ap | box_ap50 | box_ap75 | box_ap_small | box_ap_med | box_ap_large | mask_ap | mask_ap50 | mask_ap75 | mask_ap_small | mask_ap_med | mask_ap_large |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| cascade stage 1~3 | test-dev(val) | 40.10%(39.75%) | 59.40%(58.91%) | 43.90%(43.56%) | 22.00%(21.78%) | 41.90%(42.13%) | 51.90%(54.24%) | 35.00%(34.73%) | 56.30%(55.82%) | 37.20%(36.90%) | 15.10%(14.85%) | 36.60%(36.93%) | 51.00%(53.20%) |
