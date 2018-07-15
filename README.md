@@ -88,7 +88,7 @@ Folder **configs/cascade/** contains yaml files conducting the Cascade RCNN mode
 ### model is trained on coco2017train
 | experiments | dataset | box_ap | box_ap50 | box_ap75 | box_ap_small | box_ap_med | box_ap_large |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| faster-R50 | test-dev(val) | (36.7%) | (58.45%) | (39.61%) | (21.12%) | (39.85%) | (48.13%) |
+| faster-FPN-R50 | test-dev(val) | (36.7%) | (58.45%) | (39.61%) | (21.12%) | (39.85%) | (48.13%) |
 | cascade stage1 | test-dev(val) |  |  |  |  |  |  |
 | cascade stage2 | test-dev(val) |  |  |  |  |  |  |
 | cascade stage3 | test-dev(val) |  |  |  |  |  |  |
@@ -100,7 +100,7 @@ Folder **configs/cascade/** contains yaml files conducting the Cascade RCNN mode
 ## model is trained on voc0712 trainval, tested on voc2007 test, using coco evaluation metrics
 | experiments | dataset | box_ap | box_ap50 | box_ap75 | box_ap_small | box_ap_med | box_ap_large |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| faster-R50 | voc2007_val | 46.75% | 77.06% | 50.32% | 16.54% | 35.10% | 54.36% |
+| faster-FPN-R50 | voc2007_val | 46.75% | 77.06% | 50.32% | 16.54% | 35.10% | 54.36% |
 | cascade stage1 | voc2007_test | 36.80% | 71.74% | 32.66% | 12.88% | 28.62% | 42.55% |
 | cascade stage2 | voc2007_test | 46.61% | 74.41% | 50.68% | 16.44% | 33.90% | 54.52% |
 | cascade stage3 | voc2007_test | 47.50% | 73.03% | 52.19% | 15.93% | 34.66% | 55.38% |
