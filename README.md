@@ -101,9 +101,9 @@ Folder **configs/cascade/** contains yaml files conducting the Cascade RCNN mode
 | experiments | dataset | box_ap | box_ap50 | box_ap75 | box_ap_small | box_ap_med | box_ap_large |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | faster-R50 | voc2007_val | 46.75% | 77.06% | 50.32% | 16.54% | 35.10% | 54.36% |
-| cascade stage1 | voc2007_val |  |  |  |  |  |  |
-| cascade stage2 | voc2007_val |  |  |  |  |  |  |
-| cascade stage3 | voc2007_val |  |  |  |  |  |  |
-| cascade stage 1~2 | voc2007_val |  |  |  |  |  |  |
-| cascade stage 1~3 | voc2007_val |  |  |  |  |  |  |
+| cascade stage1 | voc2007_test |  |  |  |  |  |  |
+| cascade stage2 | voc2007_test |  |  |  |  |  |  |
+| cascade stage3 | voc2007_test |  |  |  |  |  |  |
+| cascade stage 1~2 | voc2007_test |  |  |  |  |  |  |
+| cascade stage 1~3 | voc2007_test |  |  |  |  |  |  |
 
