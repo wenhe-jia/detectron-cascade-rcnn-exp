@@ -78,7 +78,7 @@ Folder **configs/cascade/** contains yaml files conducting the Cascade RCNN mode
 
 
 ## mask cascade rcnn results beta version 4 large iter
-### model is trained on coco2017train, lr start at 0.01, reduce to 0.001 at 160000 iterations and 0.0001 at 240000 iterations
+### model is trained on coco2017train, learning rate start at 0.01, reduce to 0.001 at 160000 iterations and 0.0001 at 240000 iterations
 | experiments | dataset | box_ap | box_ap50 | box_ap75 | box_ap_small | box_ap_med | box_ap_large | mask_ap | mask_ap50 | mask_ap75 | mask_ap_small | mask_ap_med | mask_ap_large |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | cascade stage 1~3 | test-dev(val) | 40.10%(39.75%) | 59.40%(58.91%) | 43.90%(43.56%) | 22.00%(21.78%) | 41.90%(42.13%) | 51.90%(54.24%) | 35.00%(34.73%) | 56.30%(55.82%) | 37.20%(36.90%) | 15.10%(14.85%) | 36.60%(36.93%) | 51.00%(53.20%) |
