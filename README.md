@@ -3,6 +3,11 @@ Experiment results of implement Cascade RCNN under Detectron.
 Using ResNet50 as feature extractor, as well as 1x iterations.
 Learning rate start as 0.01 (4GPU, 2 images per GPU).
 
+# Communication
+All the experiments I have tried are shown as below, but the results are not as expected, any ideas and suggestions helpful
+are welcomed.
+
+
 ## Using statement
 Folder **detectron_cascade** are codes to implement Cascade RCNN under Detectron, parallelizing with folder **$Detectron/detcectron**. 
 
